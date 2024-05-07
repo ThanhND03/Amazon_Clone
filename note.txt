@@ -1,0 +1,16 @@
+* Danh sách việc cần làm
+
+1. Trang chủ 
+- Hover menu        ok        
+- Auto next slider   ok
+- link href cho tất cả ok        
+- Thêm nút next và prev cho slider product ok        
+
+2. ProductPage 
+- làm chọn màu chyển ảnh                     
+- nếu được làm thêm (add to cart)
+              
+
+3. Trang login-signup 
+- Validate form 
+- đăng kí đăng nhập đơn giản nếu được    

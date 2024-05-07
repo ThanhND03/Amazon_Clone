@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon | Signup</title>
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/signup.css">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="shortcut icon" href="../assets/images/icon-title.png">
+    <!-- Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+    <section id="wrapper">
+        <div id="header">
+            <a href="index.html"><img src="../assets/images/amazon_logo_dark.png" alt="" width="100px"></a>
+        </div>
+        
+            <div class="login_signup_container start_form">
+                <form action="#" id="form-1">
+                    <h1 class="signin_title">Create account</h1>
+        
+                    <div class="input_box">
+                        <h5>Your name</h5>
+                        <input type="text" placeholder="First and last name" id="contact-name" autocomplete="username"  onkeyup="validateName()">
+                    </div>
+                    <p class="notification name"></p>
+                    
+                    <div class="input_box">
+                        <h5>Mobile number or email</h5>
+                        <input type="email" id="contact-email" autocomplete="email" onkeyup="validateEmail()">
+                    </div>
+                    <p class="notification email"></p>
+        
+                    <div class="input_box">
+                        <h5>Password</h5>
+                        <input type="password" class="password"  placeholder="At least 6 characters" id="contact-password-signup" autocomplete="new-password" onkeyup="validatePass()">
+                        <i class="fa-solid fa-eye" id="hideshowpass"></i>
+                    </div>
+                    <p class="notification password"></p>            
+        
+                    <div class="input_box">
+                        <h5>Re-enter password</h5>
+                        <input type="password" class="repass" id="contact-repassword" autocomplete="new-password" onkeyup="validateRepass()">
+                        <i class="fa-solid fa-eye" id="hideshowrepass"></i>
+                    </div>
+                    <p class="notification repassword"></p>
+        
+                    <button class="btn-continue">Continue</button>
+                    <p class="signup_condition">By creating an account, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.</p>
+                    <hr class="space">
+                    <h5>Buying for work?</h5>
+                </form>
+                <a class="signup_createbusiness" href="#">Create a free business account</a>
+                <hr class="elip">
+                <p class="loginForm">Already have an account? <a href="login.html">Sign in</a> <span>&#9656</span></p>
+            </div>
+
+        
+            <div class="login_signup_container end_form">
+                <form action="#" id="form-2">
+                    <h1 class="signin_title">Verify email address</h1>
+                    <div class="title">
+                        To verify your email , we've sent a One Time <br> 
+                        Password (OTP) to <span class="showEmail">user_1@gmail.com</span> <br>
+                        <span class="change">(Change)</span>
+                    </div>
+                    <p class="otp">OTP : 12345</p>
+                    <div class="input_box">
+                        <h5>Enter OTP</h5>
+                        <input type="text" id="contact-OTP">
+                        <p class="notification"></p>
+                    </div>
+                    
+                    <button class="btn-create">Create your Amazon account</button>
+                    <p class="signup_condition">By creating an account, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.</p>
+                    <b class="resend-otp">Resend OTP</b>
+                </form>
+            </div>
+
+        <div id="footer_signup">
+            <div class="container">
+                <div class="footer_link">
+                    <a href="#">Conditions of Use</a>
+                    <a href="#">Privacy Notice</a>
+                    <a href="#">Help</a>
+                </div>
+                <p class="footer_copyright"><i class="fa-regular fa-copyright"></i> 1996-2024 , Amazon.com, Inc. or its affilates</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="../assets/js/singup.js"></script>
+</body>
+</html>
