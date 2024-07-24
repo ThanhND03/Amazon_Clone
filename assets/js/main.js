@@ -93,7 +93,7 @@ const slider3 = new Slider('.products.slider-3', '.control_next.next-3', '.contr
 let products_slider = null;
 fetch('/assets/js/productSlider.json').then(response => response.json()).then(data => {
     products_slider = data;
-    console.log(products_slider);
+    // console.log(products_slider);
     addDatatoHTML();
 });
 
